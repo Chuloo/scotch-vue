@@ -31,7 +31,7 @@ export default new Router({
     {
       path: "/books/:bookId",
       name: "details",
-      component: () => import("./views/Details.vue"),
+      component: () => import("./views/BookDetails.vue"),
       props: true
     }
   ]

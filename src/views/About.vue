@@ -30,7 +30,6 @@ export default {
       /* eslint-disable no-console */
       .then(data => {
         this.users = data;
-        console.log(data);
       });
   }
 };

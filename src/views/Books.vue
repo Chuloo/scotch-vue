@@ -13,7 +13,7 @@
               <div class="card-content">
                 <h2>{{ book.name }}</h2>
                 <router-link
-                  :to="{ name: 'details', params: { bookName: book.name, bookId: book.isbn, country: book.country, isbn: book.isbn, releaseDate:book.released, publisher:book.publisher, pages:book.numberOfPages, author:book.authors }}"
+                  :to="{ name: 'details', params: { bookId: book.isbn, country: book.country, isbn: book.isbn, releaseDate:book.released, publisher:book.publisher, pages:book.numberOfPages, author:book.authors }}"
                 >View Details</router-link>
               </div>
             </div>
